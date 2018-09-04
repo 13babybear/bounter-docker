@@ -1,0 +1,9 @@
+version: '3'
+services:
+  #服务名称
+  bounter-docker:
+    #服务使用的镜像
+    image: bounter/bounter-docker
+    #服务端口号
+    ports:
+    - "18080:8080"
