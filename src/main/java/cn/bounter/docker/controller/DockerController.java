@@ -13,7 +13,7 @@ public class DockerController {
 
 	@GetMapping
 	public String get() {
-		return "Hello Sus an!";
+		return "Hello Simon!";
 	}
 
 }
