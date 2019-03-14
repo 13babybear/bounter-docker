@@ -52,7 +52,7 @@
                 <configuration>
                     <!--私有仓库账号-->
                     <username>bounter</username>
-                    <password>111111</password>
+                    <password>******</password>
                     <repository>47.98.151.249:5000/bounter/${project.artifactId}</repository>
                     <buildArgs>
                         <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
